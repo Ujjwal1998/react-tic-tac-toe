@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  display: inline;
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  background: #fff;
+  /* border: 2px solid #999; */
+  border: none;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  animation:  infinite alternate slidein;
+  /* line-height: 34px; */
+  height: 68px; 
+  /* margin-right: -1px;
+  margin-top: -1px; */
+  padding: 0;
+  text-align: center;
+  
+  
+  
+  /* width: 34px; */
+}
+
+.square:hover{
+  background-color: lightgrey;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+.game-board {
+  visibility: hidden;
+  position: relative;
+  opacity: 0;
+  transition: visibility 0s, opacity 1.3s linear;
+}
+.game-menu {
+  display: inline;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gameover-menu {
+  visibility: hidden;
+  transition: visibility 2s, transform 1s;
+}
+
+li {
+  list-style-type: none;
+}
